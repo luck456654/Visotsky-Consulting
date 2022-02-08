@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    font-style: normal;
+    font-weight: 900;
+    font-display:swap;
+    src: local(''),
+         url('../fonts/Gotham\ Pro\ Regular-ttf.woff2') format('woff2'), 
+         url('../fonts/Gotham-Pro-Regular-ttf.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'Gotham Pro Black';
+    font-style: normal;
+    font-weight: 900;
+    font-display:swap;
+    src: local(''),
+         url('../fonts/Gotham\ Pro\ Black-ttf.woff2') format('woff2'), 
+         url('../fonts/Gotham-Pro-Black-ttf.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    font-display:swap;
+    src: local(''),
+         url('../fonts/Gotham\ Pro\ Bold-ttf.woff2') format('woff2'), 
+         url('../fonts/Gotham\ Pro\ Bold-ttf.woff2') format('woff'); 
+  }
+body{
+    background-color: gray;
+}
+.main__popup{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__popup{
+    padding: 10px 269px 6px 211px;
+}
+.main__popup{
+    width: 750px;
+    height: 449px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+   
+}
+.main__left-wrapper{
+    background-image: url("../img/mainleftwrapper.png");
+    background-size: cover;
+    width: 310px;
+    height: 450px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    }
+.main__book{
+    background-image: url("../img/book.png");
+    background-size: cover;
+    width: 394px;
+    height: 337px;
+    position: relative;
+    top: 45px;
+    right: 45px;  
+}
+.main__arrow{
+    background-image: url("../img/arrow.png");
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+    position: relative;
+    left: 232px;
+    top: -14px;  
+}
+.main__posh{
+    color: #E6E6E6;
+    font-family: 'Gotham Pro Bold';
+    font-size: 110px;
+    position: absolute;
+   }
+.main__plan {
+  color: #E6E6E6;
+  font-family: 'Gotham Pro Bold';
+  font-size: 81px;
+  position: absolute;
+  top: 294px;
+  left: 44px;
+}
+.main__popup-right{
+    margin: 0 auto;
+    padding: 4px;
+}
+.main__title{
+    text-align: center;
+    font-family: 'Gotham Pro Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.main__text-download{
+    text-align: center;
+    font-family: 'Gotham Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; 
+    margin-bottom: -14px;
+}
+.main__h3{
+    text-align: center;
+    font-family:  'Gotham Pro Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    width: 321px;
+    margin-bottom: -10px;
+}
+.main__desc{
+    font-family: 'Gotham Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    width: 317px;
+    margin-bottom: -18px;
+}
+.main__desc-bold{
+    font-family: 'Gotham Pro Bold';
+    text-align: center;
+    margin-bottom: 12px;
+}
+.main__10steps{
+    text-align: center;
+    font-family: 'Gotham Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px; 
+    margin-bottom: 35px;  
+}
+.main__bonus{
+    font-family: 'Gotham Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+.main__input{
+    width: 323px;
+    height: 50px;
+    border: 2px solid #F3CE00;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 4px 17px;
+}
+input::placeholder{
+    font-family: 'Gotham Pro Black';
+    font-style: bold;
+    font-size: 14px;;
+}
+.main__button{
+    width:323px;
+    height:50px;
+    background: linear-gradient(92.64deg, #FF5621 29.24%, #F21313 83.67%);
+    border-radius: 4px;
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    outline: none;
+    border: none;
+}
+.main__popup{
+    display: none;
+}
