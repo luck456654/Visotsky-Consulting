@@ -6,3 +6,4 @@
 git clone https://github.com/luck456654/Visotsky-Consulting.git </li>
 <li>зайдите в получившуюся папку и запустите запустите файл index.html</li>
 </ol>
+<b>Демо-ссылка</b>-https://luck456654.github.io/Visotsky-Consulting/
